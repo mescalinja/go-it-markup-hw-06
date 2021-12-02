@@ -365,7 +365,7 @@ position: relative;
   height: 40px;
   margin-bottom: 10px;
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 42px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -416,6 +416,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 
 text-decoration: underline;
+text-decoration-skip-ink: none;
 color: var(--accent-color);
 }
 
@@ -445,7 +446,8 @@ letter-spacing: 0.06em;
 transition: background-color var(--transition-time) var(--cubic);
 }
 
-.submit-btn:hover {
+.submit-btn:hover, 
+.submit-btn:focus {
 background-color: var(--btn-hover-color);
 }
 
@@ -474,7 +476,8 @@ background-color: var(--btn-hover-color);
   fill: currentColor;
 }
 
-.close-btn:hover {
+.close-btn:hover,
+.close-btn:focus {
   color: var(--accent-color);
 } 
 
