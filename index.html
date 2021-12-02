@@ -44,7 +44,6 @@
                             <use href="./images/icons.svg#icon-telephone"></use>
                         </svg>
                         +38 096 1111111
-
                     </a>
                 </li>
             </ul>
@@ -65,6 +64,40 @@
                                 </use>
                             </svg>
                         </button>
+                        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                        <form action="#" class="modal-form">
+                            <div class="modal-form-field">
+                                <label for="user-name" class="input-title">Имя</label>
+                                <input type="text" name="user-name" id="user-name" class="modal-input" minlength="2"
+                                    required>
+                            </div>
+
+                            <div class="modal-form-field">
+                                <label for="user-tel" class="input-title">Телефон</label>
+                                <input type="tel" name="user-tel" id="user-tel" class="modal-input" required>
+                            </div>
+
+                            <div class="modal-form-field">
+                                <label for="user-mail" class="input-title">Почта</label>
+                                <input type="mail" name="user-mail" id="user-mail" class="modal-input" required>
+                            </div>
+
+                            <div class="modal-form-field">
+                                <label for="feedback" class="input-title">Комментарий</label>
+                                <textarea name="feedback" id="feedback" class="feedback-txt"
+                                    placeholder="Введите текст"></textarea>
+                            </div>
+
+                            <div class="modal-form-field terms">
+                                <label>
+                                    <input type="checkbox" class="terms-checkbox" required>
+                                    <span class="terms-text">Соглашаюсь с рассылкой и принимаю</span> <a href=""
+                                        class="terms-link">Условия договора</a>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Отправить</button>
+                        </form>
                     </div>
 
                 </div>
@@ -417,6 +450,23 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="sign-up">
+                <p class="sign-up-title">Подпишитесь на рассылку</p>
+
+                <form action="#">
+                    <div class="sign-up-form"> <label>
+                            <input type="mail" name="user-mail" class="sign-up-input" placeholder="E-mail">
+                        </label>
+                        <button type="submit" class="sign-up-btn">Подписаться
+                            <svg class="sign-up-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-signup"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
         </div>
     </footer>
 
