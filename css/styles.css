@@ -918,6 +918,9 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  outline: none;
+
+  transition: border-color var(--transition-time) var(--cubic);
 
   cursor: pointer;
 }
@@ -930,6 +933,16 @@ button {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition: color var(--transition-time) var(--cubic);
+}
+
+.sign-up-input:focus {
+  border-color: var(--accent-color);
+}
+
+.sign-up-input:focus::placeholder {
+  color: var(--white-color);
 }
 
 .sign-up-btn {
