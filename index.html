@@ -90,8 +90,8 @@
                             <div class="modal-form-field">
                                 <label for="user-mail" class="input-title">Почта</label>
                                 <div class="modal-input-wrap">
-                                    <input type="mail" name="user-mail" id="user-mail" class="modal-input" required>
-                                    <svg class="input-icon" width="18" height="18">
+                                    <input type="mail" name="user-mail" id="user-mail" class="modal-input" required><svg
+                                        class="input-icon" width="18" height="18">
                                         <use href="./images/icons.svg#icon-mail-input"></use>
                                     </svg>
                                 </div>
@@ -103,11 +103,16 @@
                                     placeholder="Введите текст"></textarea>
                             </div>
 
-                            <div class="modal-form-field terms">
-                                <label>
-                                    <input type="checkbox" class="terms-checkbox" required>
-                                    <span class="terms-text">Соглашаюсь с рассылкой и принимаю</span> <a href=""
-                                        class="terms-link">Условия договора</a>
+                            <div class="modal-form-field">
+                                <input type="checkbox" id="terms-check" class="modal-check visually-hidden" required>
+                                <label for="terms-check" class="terms-check">
+                                    <span>
+                                        <svg class="icon-check" width="16" height="15">
+                                            <use href="./images/icons.svg#icon-check"></use>
+                                        </svg>
+                                    </span>
+                                    Соглашаюсь с рассылкой и принимаю
+                                    <a href="" class="terms-link">Условия договора</a>
                                 </label>
                             </div>
 
