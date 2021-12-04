@@ -358,17 +358,41 @@ button {
   color: var(--black-color);
 }
 
-.modal-input {
-position: relative;
+.modal-input, 
+.feedback-txt {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+  color: var(--gray-color);
 
+  font-size: 16px;
+line-height: 1.16
+letter-spacing: 0.01em;
+
+cursor: pointer;
+}
+
+.modal-input-wrap {
+  position: relative;
+}
+
+.modal-input {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
   padding-right: 10px;
   padding-left: 42px;
+}
 
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+}
+
+.modal-input:focus {
+  border-color: var(--accent-color);
 }
 
 .input-title {
@@ -380,7 +404,6 @@ line-height: 1.16
 letter-spacing: 0.01em;
 
 color: var(--gray-color);
-
 }
 
 .feedback-txt {
@@ -389,8 +412,10 @@ color: var(--gray-color);
   padding: 12px 16px;
   resize: none;
 
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
+}
+
+.feedback-txt:focus {
+  border-color: var(--accent-color);
 }
 
 .feedback-txt::placeholder {
@@ -882,7 +907,6 @@ font-family: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
-outline: none;
 }
 
 .sign-up-input::placeholder {
@@ -917,7 +941,8 @@ color: var(--white-color);
 transition: background-color var(--transition-time) var(--cubic);
 }
 
-.sign-up-btn:hover {
+.sign-up-btn:hover,
+.sign-up-btn:focus {
   background-color: var(--btn-hover-color);
 }
 
