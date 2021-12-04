@@ -366,10 +366,10 @@ button {
   color: var(--gray-color);
 
   font-size: 16px;
-line-height: 1.16
-letter-spacing: 0.01em;
-transition: border-color var(--transition-time) var(--cubic);
-cursor: pointer;
+  line-height: 1.16
+  letter-spacing: 0.01em;
+  transition: border-color var(--transition-time) var(--cubic);
+  cursor: pointer;
 }
 
 .modal-input-wrap {
@@ -404,13 +404,13 @@ cursor: pointer;
 
 .input-title {
   display: block;
-margin-bottom: 4px;
+  margin-bottom: 4px;
 
-font-size: 12px;
-line-height: 1.16
-letter-spacing: 0.01em;
+  font-size: 12px;
+  line-height: 1.16
+  letter-spacing: 0.01em;
 
-color: var(--gray-color);
+  color: var(--gray-color);
 }
 
 .feedback-txt {
@@ -426,32 +426,32 @@ color: var(--gray-color);
 }
 
 .feedback-txt::placeholder {
-font-size: 14px;
-line-height: 1.16;
-letter-spacing: 0.01em;
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 
-color: rgba(117, 117, 117, 0.5);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .terms-check {
-  display: flex;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em; 
 
-color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-color);
 }
 
 .terms-check span {
-width: 16px;
-height: 15px;
-border: 2px solid var(--black-color);
-border-radius: 2px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--black-color);
+  border-radius: 2px;
 
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 6px;
+  display: flex;
+  margin-right: 6px;
 }
 
 .icon-check {
@@ -465,40 +465,40 @@ margin-right: 6px;
 
 .terms-link {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-text-decoration: underline;
-text-decoration-skip-ink: none;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .submit-btn {
-display: flex;
-margin: auto auto;
-padding: 10px 55px;
-align-items: center;
-text-align: center;
+  display: flex;
+  margin: auto auto;
+  padding: 10px 55px;
+  align-items: center;
+  text-align: center;
 
-background-color: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 
-color: var(--white-color);
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
+  color: var(--white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 
-transition: background-color var(--transition-time) var(--cubic);
+  transition: background-color var(--transition-time) var(--cubic);
 }
 
 .submit-btn:hover, 
 .submit-btn:focus {
-background-color: var(--btn-hover-color);
+  background-color: var(--btn-hover-color);
 }
 
 .close-btn {
@@ -913,13 +913,13 @@ background-color: var(--btn-hover-color);
   display: flex;
   margin-bottom: 20px;
 
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: var(--white-color);
+  color: var(--white-color);
 }
 
 .sign-up-input {
@@ -928,45 +928,45 @@ color: var(--white-color);
   padding: 15px 16px;
   margin-right: 12px;
 
-font-family: inherit;
+  font-family: inherit;
   color: var(--white-color);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
 }
 
 .sign-up-input::placeholder {
   font-size: 16px;
-line-height: 1.25;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .sign-up-btn {
   height: 50px;
   padding: 10px 29px;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 
   background-color: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
-color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--white-color);
 
-transition: background-color var(--transition-time) var(--cubic);
+  transition: background-color var(--transition-time) var(--cubic);
 }
 
 .sign-up-btn:hover,
@@ -975,7 +975,7 @@ transition: background-color var(--transition-time) var(--cubic);
 }
 
 .sign-up-icon {
-margin-left: 10px;
+  margin-left: 10px;
 
   fill: var(--white-color);
 }
