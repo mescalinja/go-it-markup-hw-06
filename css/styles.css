@@ -196,8 +196,6 @@ button {
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-  transform: color;
-
   color: var(--accent-color);
 }
 
@@ -283,8 +281,6 @@ button {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  transform: background-color;
-
   background-color: var(--btn-hover-color);
 }
 
@@ -716,15 +712,11 @@ button {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  transform: background-color;
-
   background-color: var(--accent-color);
 }
 
 .team-social-link:hover .team-social-icon,
 .team-social-link:focus .team-social-icon {
-  transform: fill;
-
   fill: var(--white-color);
 }
 
@@ -779,8 +771,6 @@ button {
 
 .clients-link:hover,
 .clients-link:focus {
-  transform: border-color, color;
-
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -847,8 +837,6 @@ button {
 .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-  transform: color;
-
   color: var(--accent-color);
 }
 
@@ -895,15 +883,12 @@ button {
 
 .social-footer-link:hover,
 .social-footer-link:focus {
-  transform: background-color;
-
   background-color: var(--accent-color);
 }
 
 .social-footer-icon {
   fill: var(--white-color);
 }
-
 
 .sign-up-form {
   display: flex;
@@ -928,12 +913,13 @@ button {
   padding: 15px 16px;
   margin-right: 12px;
 
-  font-family: inherit;
   color: var(--white-color);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  cursor: pointer;
 }
 
 .sign-up-input::placeholder {
@@ -980,6 +966,8 @@ button {
   fill: var(--white-color);
 }
 
+
+
 /* ----------------------- PORTFOLIO --------------------- */
 
 /* .............PRODUCTS................ */
@@ -1018,8 +1006,6 @@ button {
 .products-nav-btn:hover,
 .products-nav-btn:focus,
 .products-nav .products-nav-btn.current-btn {
-  transform: background-color, color, box-shadow;
-
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
