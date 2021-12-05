@@ -446,18 +446,29 @@ button {
   border: 2px solid var(--black-color);
   border-radius: 2px;
 
+  transition: background-color var(--transition-time) var(--cubic), border var(--transition-time) var(--cubic);
+
   display: flex;
   margin-right: 6px;
 }
 
 .icon-check {
-  fill: var(--white-color);
+  fill: transparent;
+
+  transition: fill var(--transition-time) var(--cubic);
 }
+
 
 .modal-check:checked + .terms-check span {
   background-color: var(--accent-color);
   border: none;
 }
+
+
+.modal-check:checked + .terms-check span .icon-check {
+  fill: var(--white-color);
+}
+
 
 .terms-link {
   font-size: 14px;
